@@ -1,0 +1,843 @@
+[32m[0615 14:18:19 @logger.py:78][0m Argv: /content/drive/MyDrive/opt-ml-pro/main.py --psuedo
+[32m[0615 14:18:19 @main.py:56][0m log name: rmsprop_bs-512_lr-0.004_lrDecay-0.05_warmupEpochs-10_epoch-200_psuedo
+[32m[0615 14:18:19 @main.py:59][0m ==> Preparing data..
+[32m[0615 14:18:27 @main.py:86][0m ==> Building resnet18 model..
+[32m[0615 14:18:40 @main.py:163][0m 
+Epoch: 0
+[32m[0615 14:18:55 @main.py:204][0m [Epoch 0] train_loss(per sample): 1.7366, train_acc: 0.3790, lr: [0.0004]
+[32m[0615 14:18:57 @main.py:235][0m [Epoch 0] test_loss(per sample): 1.5666, test_acc: 0.4488
+[32m[0615 14:18:57 @main.py:241][0m Saving..
+[32m[0615 14:18:57 @main.py:163][0m 
+Epoch: 1
+[32m[0615 14:19:12 @main.py:204][0m [Epoch 1] train_loss(per sample): 1.4724, train_acc: 0.4698, lr: [0.0008]
+[32m[0615 14:19:14 @main.py:235][0m [Epoch 1] test_loss(per sample): 1.2868, test_acc: 0.5484
+[32m[0615 14:19:14 @main.py:241][0m Saving..
+[32m[0615 14:19:14 @main.py:163][0m 
+Epoch: 2
+[32m[0615 14:19:29 @main.py:204][0m [Epoch 2] train_loss(per sample): 1.3257, train_acc: 0.5258, lr: [0.0012]
+[32m[0615 14:19:31 @main.py:235][0m [Epoch 2] test_loss(per sample): 1.2966, test_acc: 0.5352
+[32m[0615 14:19:31 @main.py:163][0m 
+Epoch: 3
+[32m[0615 14:19:46 @main.py:204][0m [Epoch 3] train_loss(per sample): 1.2278, train_acc: 0.5675, lr: [0.0016]
+[32m[0615 14:19:48 @main.py:235][0m [Epoch 3] test_loss(per sample): 1.4147, test_acc: 0.5167
+[32m[0615 14:19:48 @main.py:163][0m 
+Epoch: 4
+[32m[0615 14:20:03 @main.py:204][0m [Epoch 4] train_loss(per sample): 1.1720, train_acc: 0.5916, lr: [0.002]
+[32m[0615 14:20:05 @main.py:235][0m [Epoch 4] test_loss(per sample): 1.3707, test_acc: 0.5372
+[32m[0615 14:20:05 @main.py:163][0m 
+Epoch: 5
+[32m[0615 14:20:20 @main.py:204][0m [Epoch 5] train_loss(per sample): 1.1489, train_acc: 0.6021, lr: [0.0024]
+[32m[0615 14:20:22 @main.py:235][0m [Epoch 5] test_loss(per sample): 1.2718, test_acc: 0.5895
+[32m[0615 14:20:22 @main.py:241][0m Saving..
+[32m[0615 14:20:22 @main.py:163][0m 
+Epoch: 6
+[32m[0615 14:20:38 @main.py:204][0m [Epoch 6] train_loss(per sample): 1.0418, train_acc: 0.6405, lr: [0.0028]
+[32m[0615 14:20:39 @main.py:235][0m [Epoch 6] test_loss(per sample): 1.1994, test_acc: 0.5802
+[32m[0615 14:20:39 @main.py:163][0m 
+Epoch: 7
+[32m[0615 14:20:55 @main.py:204][0m [Epoch 7] train_loss(per sample): 1.0280, train_acc: 0.6443, lr: [0.0032]
+[32m[0615 14:20:57 @main.py:235][0m [Epoch 7] test_loss(per sample): 1.0612, test_acc: 0.6380
+[32m[0615 14:20:57 @main.py:241][0m Saving..
+[32m[0615 14:20:57 @main.py:163][0m 
+Epoch: 8
+[32m[0615 14:21:11 @main.py:204][0m [Epoch 8] train_loss(per sample): 0.9987, train_acc: 0.6560, lr: [0.0036000000000000003]
+[32m[0615 14:21:13 @main.py:235][0m [Epoch 8] test_loss(per sample): 1.2181, test_acc: 0.5802
+[32m[0615 14:21:13 @main.py:163][0m 
+Epoch: 9
+[32m[0615 14:21:28 @main.py:204][0m [Epoch 9] train_loss(per sample): 0.9772, train_acc: 0.6639, lr: [0.004]
+[32m[0615 14:21:30 @main.py:235][0m [Epoch 9] test_loss(per sample): 1.1913, test_acc: 0.6068
+[32m[0615 14:21:30 @main.py:163][0m 
+Epoch: 10
+[32m[0615 14:21:45 @main.py:204][0m [Epoch 10] train_loss(per sample): 0.9161, train_acc: 0.6846, lr: [0.004]
+[32m[0615 14:21:47 @main.py:235][0m [Epoch 10] test_loss(per sample): 1.2794, test_acc: 0.5716
+[32m[0615 14:21:47 @main.py:163][0m 
+Epoch: 11
+[32m[0615 14:22:03 @main.py:204][0m [Epoch 11] train_loss(per sample): 0.8787, train_acc: 0.6980, lr: [0.004]
+[32m[0615 14:22:04 @main.py:235][0m [Epoch 11] test_loss(per sample): 1.3408, test_acc: 0.5639
+[32m[0615 14:22:04 @main.py:163][0m 
+Epoch: 12
+[32m[0615 14:22:19 @main.py:204][0m [Epoch 12] train_loss(per sample): 0.8480, train_acc: 0.7110, lr: [0.004]
+[32m[0615 14:22:21 @main.py:235][0m [Epoch 12] test_loss(per sample): 1.8127, test_acc: 0.4640
+[32m[0615 14:22:21 @main.py:163][0m 
+Epoch: 13
+[32m[0615 14:22:37 @main.py:204][0m [Epoch 13] train_loss(per sample): 0.8201, train_acc: 0.7201, lr: [0.004]
+[32m[0615 14:22:39 @main.py:235][0m [Epoch 13] test_loss(per sample): 0.9569, test_acc: 0.6641
+[32m[0615 14:22:39 @main.py:241][0m Saving..
+[32m[0615 14:22:40 @main.py:163][0m 
+Epoch: 14
+[32m[0615 14:22:55 @main.py:204][0m [Epoch 14] train_loss(per sample): 0.8064, train_acc: 0.7235, lr: [0.004]
+[32m[0615 14:22:57 @main.py:235][0m [Epoch 14] test_loss(per sample): 1.0500, test_acc: 0.6615
+[32m[0615 14:22:57 @main.py:163][0m 
+Epoch: 15
+[32m[0615 14:23:12 @main.py:204][0m [Epoch 15] train_loss(per sample): 0.7809, train_acc: 0.7314, lr: [0.004]
+[32m[0615 14:23:14 @main.py:235][0m [Epoch 15] test_loss(per sample): 0.8877, test_acc: 0.6973
+[32m[0615 14:23:14 @main.py:241][0m Saving..
+[32m[0615 14:23:15 @main.py:163][0m 
+Epoch: 16
+[32m[0615 14:23:30 @main.py:204][0m [Epoch 16] train_loss(per sample): 0.7599, train_acc: 0.7390, lr: [0.004]
+[32m[0615 14:23:32 @main.py:235][0m [Epoch 16] test_loss(per sample): 1.1226, test_acc: 0.6258
+[32m[0615 14:23:32 @main.py:163][0m 
+Epoch: 17
+[32m[0615 14:23:47 @main.py:204][0m [Epoch 17] train_loss(per sample): 0.7477, train_acc: 0.7425, lr: [0.004]
+[32m[0615 14:23:49 @main.py:235][0m [Epoch 17] test_loss(per sample): 0.9123, test_acc: 0.6999
+[32m[0615 14:23:49 @main.py:241][0m Saving..
+[32m[0615 14:23:49 @main.py:163][0m 
+Epoch: 18
+[32m[0615 14:24:04 @main.py:204][0m [Epoch 18] train_loss(per sample): 0.7399, train_acc: 0.7461, lr: [0.004]
+[32m[0615 14:24:06 @main.py:235][0m [Epoch 18] test_loss(per sample): 0.7762, test_acc: 0.7368
+[32m[0615 14:24:06 @main.py:241][0m Saving..
+[32m[0615 14:24:06 @main.py:163][0m 
+Epoch: 19
+[32m[0615 14:24:22 @main.py:204][0m [Epoch 19] train_loss(per sample): 0.7254, train_acc: 0.7518, lr: [0.004]
+[32m[0615 14:24:24 @main.py:235][0m [Epoch 19] test_loss(per sample): 1.2509, test_acc: 0.6056
+[32m[0615 14:24:24 @main.py:163][0m 
+Epoch: 20
+[32m[0615 14:24:39 @main.py:204][0m [Epoch 20] train_loss(per sample): 0.7240, train_acc: 0.7511, lr: [0.004]
+[32m[0615 14:24:41 @main.py:235][0m [Epoch 20] test_loss(per sample): 1.0325, test_acc: 0.6568
+[32m[0615 14:24:41 @main.py:163][0m 
+Epoch: 21
+[32m[0615 14:24:56 @main.py:204][0m [Epoch 21] train_loss(per sample): 0.7076, train_acc: 0.7566, lr: [0.004]
+[32m[0615 14:24:58 @main.py:235][0m [Epoch 21] test_loss(per sample): 0.8078, test_acc: 0.7273
+[32m[0615 14:24:58 @main.py:163][0m 
+Epoch: 22
+[32m[0615 14:25:13 @main.py:204][0m [Epoch 22] train_loss(per sample): 0.7068, train_acc: 0.7566, lr: [0.004]
+[32m[0615 14:25:15 @main.py:235][0m [Epoch 22] test_loss(per sample): 0.8945, test_acc: 0.6938
+[32m[0615 14:25:15 @main.py:163][0m 
+Epoch: 23
+[32m[0615 14:25:30 @main.py:204][0m [Epoch 23] train_loss(per sample): 0.6975, train_acc: 0.7603, lr: [0.004]
+[32m[0615 14:25:32 @main.py:235][0m [Epoch 23] test_loss(per sample): 0.7737, test_acc: 0.7411
+[32m[0615 14:25:32 @main.py:241][0m Saving..
+[32m[0615 14:25:32 @main.py:163][0m 
+Epoch: 24
+[32m[0615 14:25:47 @main.py:204][0m [Epoch 24] train_loss(per sample): 0.6877, train_acc: 0.7650, lr: [0.004]
+[32m[0615 14:25:49 @main.py:235][0m [Epoch 24] test_loss(per sample): 0.9201, test_acc: 0.6922
+[32m[0615 14:25:49 @main.py:163][0m 
+Epoch: 25
+[32m[0615 14:26:04 @main.py:204][0m [Epoch 25] train_loss(per sample): 0.6867, train_acc: 0.7636, lr: [0.004]
+[32m[0615 14:26:06 @main.py:235][0m [Epoch 25] test_loss(per sample): 0.9049, test_acc: 0.7004
+[32m[0615 14:26:06 @main.py:163][0m 
+Epoch: 26
+[32m[0615 14:26:21 @main.py:204][0m [Epoch 26] train_loss(per sample): 0.6746, train_acc: 0.7687, lr: [0.004]
+[32m[0615 14:26:23 @main.py:235][0m [Epoch 26] test_loss(per sample): 1.0230, test_acc: 0.6586
+[32m[0615 14:26:23 @main.py:163][0m 
+Epoch: 27
+[32m[0615 14:26:38 @main.py:204][0m [Epoch 27] train_loss(per sample): 0.6794, train_acc: 0.7668, lr: [0.004]
+[32m[0615 14:26:40 @main.py:235][0m [Epoch 27] test_loss(per sample): 0.8130, test_acc: 0.7163
+[32m[0615 14:26:40 @main.py:163][0m 
+Epoch: 28
+[32m[0615 14:26:55 @main.py:204][0m [Epoch 28] train_loss(per sample): 0.6684, train_acc: 0.7677, lr: [0.004]
+[32m[0615 14:26:57 @main.py:235][0m [Epoch 28] test_loss(per sample): 0.8397, test_acc: 0.7204
+[32m[0615 14:26:57 @main.py:163][0m 
+Epoch: 29
+[32m[0615 14:27:12 @main.py:204][0m [Epoch 29] train_loss(per sample): 0.6698, train_acc: 0.7677, lr: [0.004]
+[32m[0615 14:27:14 @main.py:235][0m [Epoch 29] test_loss(per sample): 0.8903, test_acc: 0.6950
+[32m[0615 14:27:14 @main.py:163][0m 
+Epoch: 30
+[32m[0615 14:27:29 @main.py:204][0m [Epoch 30] train_loss(per sample): 0.6606, train_acc: 0.7736, lr: [0.004]
+[32m[0615 14:27:31 @main.py:235][0m [Epoch 30] test_loss(per sample): 0.8345, test_acc: 0.7272
+[32m[0615 14:27:31 @main.py:163][0m 
+Epoch: 31
+[32m[0615 14:27:46 @main.py:204][0m [Epoch 31] train_loss(per sample): 0.6603, train_acc: 0.7731, lr: [0.004]
+[32m[0615 14:27:48 @main.py:235][0m [Epoch 31] test_loss(per sample): 0.8561, test_acc: 0.7122
+[32m[0615 14:27:48 @main.py:163][0m 
+Epoch: 32
+[32m[0615 14:28:03 @main.py:204][0m [Epoch 32] train_loss(per sample): 0.6520, train_acc: 0.7758, lr: [0.004]
+[32m[0615 14:28:05 @main.py:235][0m [Epoch 32] test_loss(per sample): 1.1062, test_acc: 0.6540
+[32m[0615 14:28:05 @main.py:163][0m 
+Epoch: 33
+[32m[0615 14:28:20 @main.py:204][0m [Epoch 33] train_loss(per sample): 0.6524, train_acc: 0.7781, lr: [0.004]
+[32m[0615 14:28:22 @main.py:235][0m [Epoch 33] test_loss(per sample): 0.7167, test_acc: 0.7515
+[32m[0615 14:28:22 @main.py:241][0m Saving..
+[32m[0615 14:28:22 @main.py:163][0m 
+Epoch: 34
+[32m[0615 14:28:38 @main.py:204][0m [Epoch 34] train_loss(per sample): 0.6471, train_acc: 0.7790, lr: [0.004]
+[32m[0615 14:28:40 @main.py:235][0m [Epoch 34] test_loss(per sample): 0.7947, test_acc: 0.7273
+[32m[0615 14:28:40 @main.py:163][0m 
+Epoch: 35
+[32m[0615 14:28:55 @main.py:204][0m [Epoch 35] train_loss(per sample): 0.6473, train_acc: 0.7785, lr: [0.004]
+[32m[0615 14:28:57 @main.py:235][0m [Epoch 35] test_loss(per sample): 1.1891, test_acc: 0.6249
+[32m[0615 14:28:57 @main.py:163][0m 
+Epoch: 36
+[32m[0615 14:29:12 @main.py:204][0m [Epoch 36] train_loss(per sample): 0.6497, train_acc: 0.7759, lr: [0.004]
+[32m[0615 14:29:14 @main.py:235][0m [Epoch 36] test_loss(per sample): 0.9669, test_acc: 0.6807
+[32m[0615 14:29:14 @main.py:163][0m 
+Epoch: 37
+[32m[0615 14:29:29 @main.py:204][0m [Epoch 37] train_loss(per sample): 0.6424, train_acc: 0.7796, lr: [0.004]
+[32m[0615 14:29:31 @main.py:235][0m [Epoch 37] test_loss(per sample): 0.8082, test_acc: 0.7298
+[32m[0615 14:29:31 @main.py:163][0m 
+Epoch: 38
+[32m[0615 14:29:47 @main.py:204][0m [Epoch 38] train_loss(per sample): 0.6378, train_acc: 0.7825, lr: [0.004]
+[32m[0615 14:29:49 @main.py:235][0m [Epoch 38] test_loss(per sample): 0.6764, test_acc: 0.7687
+[32m[0615 14:29:49 @main.py:241][0m Saving..
+[32m[0615 14:29:49 @main.py:163][0m 
+Epoch: 39
+[32m[0615 14:30:04 @main.py:204][0m [Epoch 39] train_loss(per sample): 0.6373, train_acc: 0.7802, lr: [0.004]
+[32m[0615 14:30:06 @main.py:235][0m [Epoch 39] test_loss(per sample): 0.8229, test_acc: 0.7193
+[32m[0615 14:30:06 @main.py:163][0m 
+Epoch: 40
+[32m[0615 14:30:21 @main.py:204][0m [Epoch 40] train_loss(per sample): 0.6293, train_acc: 0.7831, lr: [0.004]
+[32m[0615 14:30:24 @main.py:235][0m [Epoch 40] test_loss(per sample): 1.0142, test_acc: 0.6711
+[32m[0615 14:30:24 @main.py:163][0m 
+Epoch: 41
+[32m[0615 14:30:39 @main.py:204][0m [Epoch 41] train_loss(per sample): 0.6384, train_acc: 0.7823, lr: [0.004]
+[32m[0615 14:30:41 @main.py:235][0m [Epoch 41] test_loss(per sample): 0.8404, test_acc: 0.7208
+[32m[0615 14:30:41 @main.py:163][0m 
+Epoch: 42
+[32m[0615 14:30:56 @main.py:204][0m [Epoch 42] train_loss(per sample): 0.6286, train_acc: 0.7844, lr: [0.004]
+[32m[0615 14:30:58 @main.py:235][0m [Epoch 42] test_loss(per sample): 0.9542, test_acc: 0.6859
+[32m[0615 14:30:58 @main.py:163][0m 
+Epoch: 43
+[32m[0615 14:31:13 @main.py:204][0m [Epoch 43] train_loss(per sample): 0.6325, train_acc: 0.7831, lr: [0.004]
+[32m[0615 14:31:15 @main.py:235][0m [Epoch 43] test_loss(per sample): 0.9085, test_acc: 0.6975
+[32m[0615 14:31:15 @main.py:163][0m 
+Epoch: 44
+[32m[0615 14:31:30 @main.py:204][0m [Epoch 44] train_loss(per sample): 0.6222, train_acc: 0.7866, lr: [0.004]
+[32m[0615 14:31:32 @main.py:235][0m [Epoch 44] test_loss(per sample): 0.7897, test_acc: 0.7417
+[32m[0615 14:31:32 @main.py:163][0m 
+Epoch: 45
+[32m[0615 14:31:47 @main.py:204][0m [Epoch 45] train_loss(per sample): 0.6243, train_acc: 0.7851, lr: [0.004]
+[32m[0615 14:31:49 @main.py:235][0m [Epoch 45] test_loss(per sample): 0.8786, test_acc: 0.7119
+[32m[0615 14:31:49 @main.py:163][0m 
+Epoch: 46
+[32m[0615 14:32:04 @main.py:204][0m [Epoch 46] train_loss(per sample): 0.6148, train_acc: 0.7892, lr: [0.004]
+[32m[0615 14:32:06 @main.py:235][0m [Epoch 46] test_loss(per sample): 0.8628, test_acc: 0.7072
+[32m[0615 14:32:06 @main.py:163][0m 
+Epoch: 47
+[32m[0615 14:32:21 @main.py:204][0m [Epoch 47] train_loss(per sample): 0.6241, train_acc: 0.7855, lr: [0.004]
+[32m[0615 14:32:23 @main.py:235][0m [Epoch 47] test_loss(per sample): 0.7603, test_acc: 0.7396
+[32m[0615 14:32:23 @main.py:163][0m 
+Epoch: 48
+[32m[0615 14:32:38 @main.py:204][0m [Epoch 48] train_loss(per sample): 0.6238, train_acc: 0.7854, lr: [0.004]
+[32m[0615 14:32:40 @main.py:235][0m [Epoch 48] test_loss(per sample): 0.9695, test_acc: 0.6794
+[32m[0615 14:32:40 @main.py:163][0m 
+Epoch: 49
+[32m[0615 14:32:55 @main.py:204][0m [Epoch 49] train_loss(per sample): 0.6171, train_acc: 0.7891, lr: [0.004]
+[32m[0615 14:32:57 @main.py:235][0m [Epoch 49] test_loss(per sample): 0.8680, test_acc: 0.7262
+[32m[0615 14:32:57 @main.py:163][0m 
+Epoch: 50
+[32m[0615 14:33:13 @main.py:204][0m [Epoch 50] train_loss(per sample): 0.6126, train_acc: 0.7901, lr: [0.004]
+[32m[0615 14:33:14 @main.py:235][0m [Epoch 50] test_loss(per sample): 0.9129, test_acc: 0.7004
+[32m[0615 14:33:14 @main.py:163][0m 
+Epoch: 51
+[32m[0615 14:33:30 @main.py:204][0m [Epoch 51] train_loss(per sample): 0.6195, train_acc: 0.7887, lr: [0.004]
+[32m[0615 14:33:31 @main.py:235][0m [Epoch 51] test_loss(per sample): 1.1425, test_acc: 0.6611
+[32m[0615 14:33:31 @main.py:163][0m 
+Epoch: 52
+[32m[0615 14:33:47 @main.py:204][0m [Epoch 52] train_loss(per sample): 0.6106, train_acc: 0.7899, lr: [0.004]
+[32m[0615 14:33:49 @main.py:235][0m [Epoch 52] test_loss(per sample): 0.8034, test_acc: 0.7329
+[32m[0615 14:33:49 @main.py:163][0m 
+Epoch: 53
+[32m[0615 14:34:04 @main.py:204][0m [Epoch 53] train_loss(per sample): 0.6167, train_acc: 0.7877, lr: [0.004]
+[32m[0615 14:34:06 @main.py:235][0m [Epoch 53] test_loss(per sample): 1.2752, test_acc: 0.6278
+[32m[0615 14:34:06 @main.py:163][0m 
+Epoch: 54
+[32m[0615 14:34:21 @main.py:204][0m [Epoch 54] train_loss(per sample): 0.6133, train_acc: 0.7890, lr: [0.004]
+[32m[0615 14:34:23 @main.py:235][0m [Epoch 54] test_loss(per sample): 0.9539, test_acc: 0.6900
+[32m[0615 14:34:23 @main.py:163][0m 
+Epoch: 55
+[32m[0615 14:34:38 @main.py:204][0m [Epoch 55] train_loss(per sample): 0.6074, train_acc: 0.7936, lr: [0.004]
+[32m[0615 14:34:40 @main.py:235][0m [Epoch 55] test_loss(per sample): 0.8273, test_acc: 0.7176
+[32m[0615 14:34:40 @main.py:163][0m 
+Epoch: 56
+[32m[0615 14:34:55 @main.py:204][0m [Epoch 56] train_loss(per sample): 0.6124, train_acc: 0.7895, lr: [0.004]
+[32m[0615 14:34:57 @main.py:235][0m [Epoch 56] test_loss(per sample): 0.9028, test_acc: 0.7081
+[32m[0615 14:34:57 @main.py:163][0m 
+Epoch: 57
+[32m[0615 14:35:12 @main.py:204][0m [Epoch 57] train_loss(per sample): 0.6070, train_acc: 0.7920, lr: [0.004]
+[32m[0615 14:35:14 @main.py:235][0m [Epoch 57] test_loss(per sample): 0.7290, test_acc: 0.7544
+[32m[0615 14:35:14 @main.py:163][0m 
+Epoch: 58
+[32m[0615 14:35:30 @main.py:204][0m [Epoch 58] train_loss(per sample): 0.6110, train_acc: 0.7905, lr: [0.004]
+[32m[0615 14:35:32 @main.py:235][0m [Epoch 58] test_loss(per sample): 0.8890, test_acc: 0.7047
+[32m[0615 14:35:32 @main.py:163][0m 
+Epoch: 59
+[32m[0615 14:35:46 @main.py:204][0m [Epoch 59] train_loss(per sample): 0.6037, train_acc: 0.7910, lr: [0.004]
+[32m[0615 14:35:49 @main.py:235][0m [Epoch 59] test_loss(per sample): 1.0277, test_acc: 0.6797
+[32m[0615 14:35:49 @main.py:163][0m 
+Epoch: 60
+[32m[0615 14:36:04 @main.py:204][0m [Epoch 60] train_loss(per sample): 0.5075, train_acc: 0.8277, lr: [0.0002]
+[32m[0615 14:36:05 @main.py:235][0m [Epoch 60] test_loss(per sample): 0.5027, test_acc: 0.8295
+[32m[0615 14:36:05 @main.py:241][0m Saving..
+[32m[0615 14:36:07 @main.py:163][0m 
+Epoch: 61
+[32m[0615 14:36:22 @main.py:204][0m [Epoch 61] train_loss(per sample): 0.4573, train_acc: 0.8449, lr: [0.0002]
+[32m[0615 14:36:24 @main.py:235][0m [Epoch 61] test_loss(per sample): 0.4893, test_acc: 0.8297
+[32m[0615 14:36:24 @main.py:241][0m Saving..
+[32m[0615 14:36:24 @main.py:163][0m 
+Epoch: 62
+[32m[0615 14:36:39 @main.py:204][0m [Epoch 62] train_loss(per sample): 0.4312, train_acc: 0.8537, lr: [0.0002]
+[32m[0615 14:36:41 @main.py:235][0m [Epoch 62] test_loss(per sample): 0.4840, test_acc: 0.8326
+[32m[0615 14:36:41 @main.py:241][0m Saving..
+[32m[0615 14:36:41 @main.py:163][0m 
+Epoch: 63
+[32m[0615 14:36:57 @main.py:204][0m [Epoch 63] train_loss(per sample): 0.4200, train_acc: 0.8561, lr: [0.0002]
+[32m[0615 14:36:59 @main.py:235][0m [Epoch 63] test_loss(per sample): 0.4793, test_acc: 0.8367
+[32m[0615 14:36:59 @main.py:241][0m Saving..
+[32m[0615 14:36:59 @main.py:163][0m 
+Epoch: 64
+[32m[0615 14:37:14 @main.py:204][0m [Epoch 64] train_loss(per sample): 0.4115, train_acc: 0.8610, lr: [0.0002]
+[32m[0615 14:37:16 @main.py:235][0m [Epoch 64] test_loss(per sample): 0.4716, test_acc: 0.8380
+[32m[0615 14:37:16 @main.py:241][0m Saving..
+[32m[0615 14:37:16 @main.py:163][0m 
+Epoch: 65
+[32m[0615 14:37:32 @main.py:204][0m [Epoch 65] train_loss(per sample): 0.4020, train_acc: 0.8649, lr: [0.0002]
+[32m[0615 14:37:34 @main.py:235][0m [Epoch 65] test_loss(per sample): 0.4695, test_acc: 0.8380
+[32m[0615 14:37:34 @main.py:163][0m 
+Epoch: 66
+[32m[0615 14:37:49 @main.py:204][0m [Epoch 66] train_loss(per sample): 0.4025, train_acc: 0.8619, lr: [0.0002]
+[32m[0615 14:37:51 @main.py:235][0m [Epoch 66] test_loss(per sample): 0.4658, test_acc: 0.8404
+[32m[0615 14:37:51 @main.py:241][0m Saving..
+[32m[0615 14:37:51 @main.py:163][0m 
+Epoch: 67
+[32m[0615 14:38:06 @main.py:204][0m [Epoch 67] train_loss(per sample): 0.3908, train_acc: 0.8662, lr: [0.0002]
+[32m[0615 14:38:08 @main.py:235][0m [Epoch 67] test_loss(per sample): 0.4691, test_acc: 0.8394
+[32m[0615 14:38:08 @main.py:163][0m 
+Epoch: 68
+[32m[0615 14:38:24 @main.py:204][0m [Epoch 68] train_loss(per sample): 0.3837, train_acc: 0.8700, lr: [0.0002]
+[32m[0615 14:38:25 @main.py:235][0m [Epoch 68] test_loss(per sample): 0.4618, test_acc: 0.8412
+[32m[0615 14:38:25 @main.py:241][0m Saving..
+[32m[0615 14:38:26 @main.py:163][0m 
+Epoch: 69
+[32m[0615 14:38:41 @main.py:204][0m [Epoch 69] train_loss(per sample): 0.3733, train_acc: 0.8728, lr: [0.0002]
+[32m[0615 14:38:43 @main.py:235][0m [Epoch 69] test_loss(per sample): 0.4633, test_acc: 0.8427
+[32m[0615 14:38:43 @main.py:241][0m Saving..
+[32m[0615 14:38:43 @main.py:163][0m 
+Epoch: 70
+[32m[0615 14:38:58 @main.py:204][0m [Epoch 70] train_loss(per sample): 0.3763, train_acc: 0.8708, lr: [0.0002]
+[32m[0615 14:39:00 @main.py:235][0m [Epoch 70] test_loss(per sample): 0.4614, test_acc: 0.8430
+[32m[0615 14:39:00 @main.py:241][0m Saving..
+[32m[0615 14:39:01 @main.py:163][0m 
+Epoch: 71
+[32m[0615 14:39:16 @main.py:204][0m [Epoch 71] train_loss(per sample): 0.3715, train_acc: 0.8731, lr: [0.0002]
+[32m[0615 14:39:18 @main.py:235][0m [Epoch 71] test_loss(per sample): 0.4585, test_acc: 0.8443
+[32m[0615 14:39:18 @main.py:241][0m Saving..
+[32m[0615 14:39:18 @main.py:163][0m 
+Epoch: 72
+[32m[0615 14:39:33 @main.py:204][0m [Epoch 72] train_loss(per sample): 0.3659, train_acc: 0.8751, lr: [0.0002]
+[32m[0615 14:39:35 @main.py:235][0m [Epoch 72] test_loss(per sample): 0.4574, test_acc: 0.8453
+[32m[0615 14:39:35 @main.py:241][0m Saving..
+[32m[0615 14:39:36 @main.py:163][0m 
+Epoch: 73
+[32m[0615 14:39:51 @main.py:204][0m [Epoch 73] train_loss(per sample): 0.3663, train_acc: 0.8760, lr: [0.0002]
+[32m[0615 14:39:53 @main.py:235][0m [Epoch 73] test_loss(per sample): 0.4564, test_acc: 0.8453
+[32m[0615 14:39:53 @main.py:163][0m 
+Epoch: 74
+[32m[0615 14:40:08 @main.py:204][0m [Epoch 74] train_loss(per sample): 0.3596, train_acc: 0.8781, lr: [0.0002]
+[32m[0615 14:40:10 @main.py:235][0m [Epoch 74] test_loss(per sample): 0.4573, test_acc: 0.8473
+[32m[0615 14:40:10 @main.py:241][0m Saving..
+[32m[0615 14:40:10 @main.py:163][0m 
+Epoch: 75
+[32m[0615 14:40:26 @main.py:204][0m [Epoch 75] train_loss(per sample): 0.3583, train_acc: 0.8775, lr: [0.0002]
+[32m[0615 14:40:27 @main.py:235][0m [Epoch 75] test_loss(per sample): 0.4614, test_acc: 0.8451
+[32m[0615 14:40:27 @main.py:163][0m 
+Epoch: 76
+[32m[0615 14:40:43 @main.py:204][0m [Epoch 76] train_loss(per sample): 0.3505, train_acc: 0.8806, lr: [0.0002]
+[32m[0615 14:40:45 @main.py:235][0m [Epoch 76] test_loss(per sample): 0.4529, test_acc: 0.8482
+[32m[0615 14:40:45 @main.py:241][0m Saving..
+[32m[0615 14:40:45 @main.py:163][0m 
+Epoch: 77
+[32m[0615 14:41:00 @main.py:204][0m [Epoch 77] train_loss(per sample): 0.3498, train_acc: 0.8798, lr: [0.0002]
+[32m[0615 14:41:02 @main.py:235][0m [Epoch 77] test_loss(per sample): 0.4528, test_acc: 0.8501
+[32m[0615 14:41:02 @main.py:241][0m Saving..
+[32m[0615 14:41:02 @main.py:163][0m 
+Epoch: 78
+[32m[0615 14:41:18 @main.py:204][0m [Epoch 78] train_loss(per sample): 0.3436, train_acc: 0.8825, lr: [0.0002]
+[32m[0615 14:41:20 @main.py:235][0m [Epoch 78] test_loss(per sample): 0.4563, test_acc: 0.8472
+[32m[0615 14:41:20 @main.py:163][0m 
+Epoch: 79
+[32m[0615 14:41:35 @main.py:204][0m [Epoch 79] train_loss(per sample): 0.3436, train_acc: 0.8842, lr: [0.0002]
+[32m[0615 14:41:37 @main.py:235][0m [Epoch 79] test_loss(per sample): 0.4522, test_acc: 0.8474
+[32m[0615 14:41:37 @main.py:163][0m 
+Epoch: 80
+[32m[0615 14:41:52 @main.py:204][0m [Epoch 80] train_loss(per sample): 0.3410, train_acc: 0.8816, lr: [0.0002]
+[32m[0615 14:41:54 @main.py:235][0m [Epoch 80] test_loss(per sample): 0.4525, test_acc: 0.8492
+[32m[0615 14:41:54 @main.py:163][0m 
+Epoch: 81
+[32m[0615 14:42:09 @main.py:204][0m [Epoch 81] train_loss(per sample): 0.3365, train_acc: 0.8854, lr: [0.0002]
+[32m[0615 14:42:11 @main.py:235][0m [Epoch 81] test_loss(per sample): 0.4475, test_acc: 0.8499
+[32m[0615 14:42:11 @main.py:163][0m 
+Epoch: 82
+[32m[0615 14:42:26 @main.py:204][0m [Epoch 82] train_loss(per sample): 0.3318, train_acc: 0.8873, lr: [0.0002]
+[32m[0615 14:42:28 @main.py:235][0m [Epoch 82] test_loss(per sample): 0.4513, test_acc: 0.8486
+[32m[0615 14:42:28 @main.py:163][0m 
+Epoch: 83
+[32m[0615 14:42:43 @main.py:204][0m [Epoch 83] train_loss(per sample): 0.3288, train_acc: 0.8876, lr: [0.0002]
+[32m[0615 14:42:45 @main.py:235][0m [Epoch 83] test_loss(per sample): 0.4528, test_acc: 0.8511
+[32m[0615 14:42:45 @main.py:241][0m Saving..
+[32m[0615 14:42:46 @main.py:163][0m 
+Epoch: 84
+[32m[0615 14:43:01 @main.py:204][0m [Epoch 84] train_loss(per sample): 0.3257, train_acc: 0.8880, lr: [0.0002]
+[32m[0615 14:43:03 @main.py:235][0m [Epoch 84] test_loss(per sample): 0.4515, test_acc: 0.8501
+[32m[0615 14:43:03 @main.py:163][0m 
+Epoch: 85
+[32m[0615 14:43:18 @main.py:204][0m [Epoch 85] train_loss(per sample): 0.3251, train_acc: 0.8886, lr: [0.0002]
+[32m[0615 14:43:20 @main.py:235][0m [Epoch 85] test_loss(per sample): 0.4499, test_acc: 0.8496
+[32m[0615 14:43:20 @main.py:163][0m 
+Epoch: 86
+[32m[0615 14:43:35 @main.py:204][0m [Epoch 86] train_loss(per sample): 0.3234, train_acc: 0.8892, lr: [0.0002]
+[32m[0615 14:43:37 @main.py:235][0m [Epoch 86] test_loss(per sample): 0.4506, test_acc: 0.8520
+[32m[0615 14:43:37 @main.py:241][0m Saving..
+[32m[0615 14:43:37 @main.py:163][0m 
+Epoch: 87
+[32m[0615 14:43:52 @main.py:204][0m [Epoch 87] train_loss(per sample): 0.3192, train_acc: 0.8912, lr: [0.0002]
+[32m[0615 14:43:54 @main.py:235][0m [Epoch 87] test_loss(per sample): 0.4463, test_acc: 0.8521
+[32m[0615 14:43:54 @main.py:241][0m Saving..
+[32m[0615 14:43:54 @main.py:163][0m 
+Epoch: 88
+[32m[0615 14:44:10 @main.py:204][0m [Epoch 88] train_loss(per sample): 0.3183, train_acc: 0.8911, lr: [0.0002]
+[32m[0615 14:44:12 @main.py:235][0m [Epoch 88] test_loss(per sample): 0.4437, test_acc: 0.8533
+[32m[0615 14:44:12 @main.py:241][0m Saving..
+[32m[0615 14:44:12 @main.py:163][0m 
+Epoch: 89
+[32m[0615 14:44:27 @main.py:204][0m [Epoch 89] train_loss(per sample): 0.3165, train_acc: 0.8914, lr: [0.0002]
+[32m[0615 14:44:29 @main.py:235][0m [Epoch 89] test_loss(per sample): 0.4501, test_acc: 0.8521
+[32m[0615 14:44:29 @main.py:163][0m 
+Epoch: 90
+[32m[0615 14:44:44 @main.py:204][0m [Epoch 90] train_loss(per sample): 0.3119, train_acc: 0.8930, lr: [0.0002]
+[32m[0615 14:44:46 @main.py:235][0m [Epoch 90] test_loss(per sample): 0.4496, test_acc: 0.8525
+[32m[0615 14:44:46 @main.py:163][0m 
+Epoch: 91
+[32m[0615 14:45:01 @main.py:204][0m [Epoch 91] train_loss(per sample): 0.3078, train_acc: 0.8931, lr: [0.0002]
+[32m[0615 14:45:03 @main.py:235][0m [Epoch 91] test_loss(per sample): 0.4478, test_acc: 0.8537
+[32m[0615 14:45:03 @main.py:241][0m Saving..
+[32m[0615 14:45:03 @main.py:163][0m 
+Epoch: 92
+[32m[0615 14:45:19 @main.py:204][0m [Epoch 92] train_loss(per sample): 0.3060, train_acc: 0.8943, lr: [0.0002]
+[32m[0615 14:45:21 @main.py:235][0m [Epoch 92] test_loss(per sample): 0.4506, test_acc: 0.8509
+[32m[0615 14:45:21 @main.py:163][0m 
+Epoch: 93
+[32m[0615 14:45:36 @main.py:204][0m [Epoch 93] train_loss(per sample): 0.3046, train_acc: 0.8948, lr: [0.0002]
+[32m[0615 14:45:38 @main.py:235][0m [Epoch 93] test_loss(per sample): 0.4481, test_acc: 0.8526
+[32m[0615 14:45:38 @main.py:163][0m 
+Epoch: 94
+[32m[0615 14:45:53 @main.py:204][0m [Epoch 94] train_loss(per sample): 0.3013, train_acc: 0.8968, lr: [0.0002]
+[32m[0615 14:45:55 @main.py:235][0m [Epoch 94] test_loss(per sample): 0.4481, test_acc: 0.8541
+[32m[0615 14:45:55 @main.py:241][0m Saving..
+[32m[0615 14:45:55 @main.py:163][0m 
+Epoch: 95
+[32m[0615 14:46:10 @main.py:204][0m [Epoch 95] train_loss(per sample): 0.3015, train_acc: 0.8972, lr: [0.0002]
+[32m[0615 14:46:12 @main.py:235][0m [Epoch 95] test_loss(per sample): 0.4463, test_acc: 0.8557
+[32m[0615 14:46:12 @main.py:241][0m Saving..
+[32m[0615 14:46:12 @main.py:163][0m 
+Epoch: 96
+[32m[0615 14:46:28 @main.py:204][0m [Epoch 96] train_loss(per sample): 0.2948, train_acc: 0.8984, lr: [0.0002]
+[32m[0615 14:46:29 @main.py:235][0m [Epoch 96] test_loss(per sample): 0.4531, test_acc: 0.8555
+[32m[0615 14:46:29 @main.py:163][0m 
+Epoch: 97
+[32m[0615 14:46:45 @main.py:204][0m [Epoch 97] train_loss(per sample): 0.2923, train_acc: 0.8993, lr: [0.0002]
+[32m[0615 14:46:47 @main.py:235][0m [Epoch 97] test_loss(per sample): 0.4517, test_acc: 0.8555
+[32m[0615 14:46:47 @main.py:163][0m 
+Epoch: 98
+[32m[0615 14:47:02 @main.py:204][0m [Epoch 98] train_loss(per sample): 0.2901, train_acc: 0.9007, lr: [0.0002]
+[32m[0615 14:47:04 @main.py:235][0m [Epoch 98] test_loss(per sample): 0.4531, test_acc: 0.8519
+[32m[0615 14:47:04 @main.py:163][0m 
+Epoch: 99
+[32m[0615 14:47:19 @main.py:204][0m [Epoch 99] train_loss(per sample): 0.2906, train_acc: 0.8998, lr: [0.0002]
+[32m[0615 14:47:21 @main.py:235][0m [Epoch 99] test_loss(per sample): 0.4508, test_acc: 0.8529
+[32m[0615 14:47:21 @main.py:163][0m 
+Epoch: 100
+[32m[0615 14:47:36 @main.py:204][0m [Epoch 100] train_loss(per sample): 0.2879, train_acc: 0.9009, lr: [0.0002]
+[32m[0615 14:47:38 @main.py:235][0m [Epoch 100] test_loss(per sample): 0.4509, test_acc: 0.8553
+[32m[0615 14:47:38 @main.py:163][0m 
+Epoch: 101
+[32m[0615 14:47:53 @main.py:204][0m [Epoch 101] train_loss(per sample): 0.2852, train_acc: 0.9013, lr: [0.0002]
+[32m[0615 14:47:55 @main.py:235][0m [Epoch 101] test_loss(per sample): 0.4518, test_acc: 0.8534
+[32m[0615 14:47:55 @main.py:163][0m 
+Epoch: 102
+[32m[0615 14:48:11 @main.py:204][0m [Epoch 102] train_loss(per sample): 0.2841, train_acc: 0.9026, lr: [0.0002]
+[32m[0615 14:48:13 @main.py:235][0m [Epoch 102] test_loss(per sample): 0.4482, test_acc: 0.8538
+[32m[0615 14:48:13 @main.py:163][0m 
+Epoch: 103
+[32m[0615 14:48:28 @main.py:204][0m [Epoch 103] train_loss(per sample): 0.2779, train_acc: 0.9047, lr: [0.0002]
+[32m[0615 14:48:30 @main.py:235][0m [Epoch 103] test_loss(per sample): 0.4540, test_acc: 0.8549
+[32m[0615 14:48:30 @main.py:163][0m 
+Epoch: 104
+[32m[0615 14:48:45 @main.py:204][0m [Epoch 104] train_loss(per sample): 0.2789, train_acc: 0.9045, lr: [0.0002]
+[32m[0615 14:48:47 @main.py:235][0m [Epoch 104] test_loss(per sample): 0.4498, test_acc: 0.8543
+[32m[0615 14:48:47 @main.py:163][0m 
+Epoch: 105
+[32m[0615 14:49:03 @main.py:204][0m [Epoch 105] train_loss(per sample): 0.2816, train_acc: 0.9033, lr: [0.0002]
+[32m[0615 14:49:05 @main.py:235][0m [Epoch 105] test_loss(per sample): 0.4516, test_acc: 0.8539
+[32m[0615 14:49:05 @main.py:163][0m 
+Epoch: 106
+[32m[0615 14:49:20 @main.py:204][0m [Epoch 106] train_loss(per sample): 0.2799, train_acc: 0.9039, lr: [0.0002]
+[32m[0615 14:49:21 @main.py:235][0m [Epoch 106] test_loss(per sample): 0.4500, test_acc: 0.8548
+[32m[0615 14:49:21 @main.py:163][0m 
+Epoch: 107
+[32m[0615 14:49:37 @main.py:204][0m [Epoch 107] train_loss(per sample): 0.2744, train_acc: 0.9044, lr: [0.0002]
+[32m[0615 14:49:39 @main.py:235][0m [Epoch 107] test_loss(per sample): 0.4518, test_acc: 0.8551
+[32m[0615 14:49:39 @main.py:163][0m 
+Epoch: 108
+[32m[0615 14:49:54 @main.py:204][0m [Epoch 108] train_loss(per sample): 0.2759, train_acc: 0.9046, lr: [0.0002]
+[32m[0615 14:49:56 @main.py:235][0m [Epoch 108] test_loss(per sample): 0.4573, test_acc: 0.8529
+[32m[0615 14:49:56 @main.py:163][0m 
+Epoch: 109
+[32m[0615 14:50:11 @main.py:204][0m [Epoch 109] train_loss(per sample): 0.2771, train_acc: 0.9049, lr: [0.0002]
+[32m[0615 14:50:13 @main.py:235][0m [Epoch 109] test_loss(per sample): 0.4556, test_acc: 0.8549
+[32m[0615 14:50:13 @main.py:163][0m 
+Epoch: 110
+[32m[0615 14:50:29 @main.py:204][0m [Epoch 110] train_loss(per sample): 0.2610, train_acc: 0.9088, lr: [1e-05]
+[32m[0615 14:50:31 @main.py:235][0m [Epoch 110] test_loss(per sample): 0.4469, test_acc: 0.8568
+[32m[0615 14:50:31 @main.py:241][0m Saving..
+[32m[0615 14:50:31 @main.py:163][0m 
+Epoch: 111
+[32m[0615 14:50:47 @main.py:204][0m [Epoch 111] train_loss(per sample): 0.2588, train_acc: 0.9111, lr: [1e-05]
+[32m[0615 14:50:48 @main.py:235][0m [Epoch 111] test_loss(per sample): 0.4454, test_acc: 0.8551
+[32m[0615 14:50:48 @main.py:163][0m 
+Epoch: 112
+[32m[0615 14:51:04 @main.py:204][0m [Epoch 112] train_loss(per sample): 0.2593, train_acc: 0.9103, lr: [1e-05]
+[32m[0615 14:51:06 @main.py:235][0m [Epoch 112] test_loss(per sample): 0.4454, test_acc: 0.8573
+[32m[0615 14:51:06 @main.py:241][0m Saving..
+[32m[0615 14:51:06 @main.py:163][0m 
+Epoch: 113
+[32m[0615 14:51:21 @main.py:204][0m [Epoch 113] train_loss(per sample): 0.2555, train_acc: 0.9128, lr: [1e-05]
+[32m[0615 14:51:23 @main.py:235][0m [Epoch 113] test_loss(per sample): 0.4460, test_acc: 0.8575
+[32m[0615 14:51:23 @main.py:241][0m Saving..
+[32m[0615 14:51:23 @main.py:163][0m 
+Epoch: 114
+[32m[0615 14:51:39 @main.py:204][0m [Epoch 114] train_loss(per sample): 0.2534, train_acc: 0.9132, lr: [1e-05]
+[32m[0615 14:51:41 @main.py:235][0m [Epoch 114] test_loss(per sample): 0.4454, test_acc: 0.8561
+[32m[0615 14:51:41 @main.py:163][0m 
+Epoch: 115
+[32m[0615 14:51:56 @main.py:204][0m [Epoch 115] train_loss(per sample): 0.2557, train_acc: 0.9121, lr: [1e-05]
+[32m[0615 14:51:58 @main.py:235][0m [Epoch 115] test_loss(per sample): 0.4457, test_acc: 0.8578
+[32m[0615 14:51:58 @main.py:241][0m Saving..
+[32m[0615 14:51:59 @main.py:163][0m 
+Epoch: 116
+[32m[0615 14:52:15 @main.py:204][0m [Epoch 116] train_loss(per sample): 0.2525, train_acc: 0.9130, lr: [1e-05]
+[32m[0615 14:52:17 @main.py:235][0m [Epoch 116] test_loss(per sample): 0.4447, test_acc: 0.8575
+[32m[0615 14:52:17 @main.py:163][0m 
+Epoch: 117
+[32m[0615 14:52:32 @main.py:204][0m [Epoch 117] train_loss(per sample): 0.2521, train_acc: 0.9128, lr: [1e-05]
+[32m[0615 14:52:34 @main.py:235][0m [Epoch 117] test_loss(per sample): 0.4469, test_acc: 0.8558
+[32m[0615 14:52:34 @main.py:163][0m 
+Epoch: 118
+[32m[0615 14:52:49 @main.py:204][0m [Epoch 118] train_loss(per sample): 0.2521, train_acc: 0.9150, lr: [1e-05]
+[32m[0615 14:52:51 @main.py:235][0m [Epoch 118] test_loss(per sample): 0.4456, test_acc: 0.8556
+[32m[0615 14:52:51 @main.py:163][0m 
+Epoch: 119
+[32m[0615 14:53:07 @main.py:204][0m [Epoch 119] train_loss(per sample): 0.2497, train_acc: 0.9148, lr: [1e-05]
+[32m[0615 14:53:09 @main.py:235][0m [Epoch 119] test_loss(per sample): 0.4456, test_acc: 0.8573
+[32m[0615 14:53:09 @main.py:163][0m 
+Epoch: 120
+[32m[0615 14:53:24 @main.py:204][0m [Epoch 120] train_loss(per sample): 0.2565, train_acc: 0.9103, lr: [1e-05]
+[32m[0615 14:53:26 @main.py:235][0m [Epoch 120] test_loss(per sample): 0.4474, test_acc: 0.8556
+[32m[0615 14:53:26 @main.py:163][0m 
+Epoch: 121
+[32m[0615 14:53:41 @main.py:204][0m [Epoch 121] train_loss(per sample): 0.2527, train_acc: 0.9135, lr: [1e-05]
+[32m[0615 14:53:43 @main.py:235][0m [Epoch 121] test_loss(per sample): 0.4456, test_acc: 0.8562
+[32m[0615 14:53:43 @main.py:163][0m 
+Epoch: 122
+[32m[0615 14:53:58 @main.py:204][0m [Epoch 122] train_loss(per sample): 0.2509, train_acc: 0.9127, lr: [1e-05]
+[32m[0615 14:54:00 @main.py:235][0m [Epoch 122] test_loss(per sample): 0.4465, test_acc: 0.8569
+[32m[0615 14:54:00 @main.py:163][0m 
+Epoch: 123
+[32m[0615 14:54:16 @main.py:204][0m [Epoch 123] train_loss(per sample): 0.2525, train_acc: 0.9138, lr: [1e-05]
+[32m[0615 14:54:17 @main.py:235][0m [Epoch 123] test_loss(per sample): 0.4446, test_acc: 0.8585
+[32m[0615 14:54:17 @main.py:241][0m Saving..
+[32m[0615 14:54:18 @main.py:163][0m 
+Epoch: 124
+[32m[0615 14:54:33 @main.py:204][0m [Epoch 124] train_loss(per sample): 0.2518, train_acc: 0.9128, lr: [1e-05]
+[32m[0615 14:54:35 @main.py:235][0m [Epoch 124] test_loss(per sample): 0.4441, test_acc: 0.8579
+[32m[0615 14:54:35 @main.py:163][0m 
+Epoch: 125
+[32m[0615 14:54:50 @main.py:204][0m [Epoch 125] train_loss(per sample): 0.2521, train_acc: 0.9135, lr: [1e-05]
+[32m[0615 14:54:52 @main.py:235][0m [Epoch 125] test_loss(per sample): 0.4439, test_acc: 0.8571
+[32m[0615 14:54:52 @main.py:163][0m 
+Epoch: 126
+[32m[0615 14:55:08 @main.py:204][0m [Epoch 126] train_loss(per sample): 0.2491, train_acc: 0.9140, lr: [1e-05]
+[32m[0615 14:55:10 @main.py:235][0m [Epoch 126] test_loss(per sample): 0.4406, test_acc: 0.8579
+[32m[0615 14:55:10 @main.py:163][0m 
+Epoch: 127
+[32m[0615 14:55:24 @main.py:204][0m [Epoch 127] train_loss(per sample): 0.2509, train_acc: 0.9133, lr: [1e-05]
+[32m[0615 14:55:26 @main.py:235][0m [Epoch 127] test_loss(per sample): 0.4443, test_acc: 0.8563
+[32m[0615 14:55:26 @main.py:163][0m 
+Epoch: 128
+[32m[0615 14:55:42 @main.py:204][0m [Epoch 128] train_loss(per sample): 0.2506, train_acc: 0.9143, lr: [1e-05]
+[32m[0615 14:55:44 @main.py:235][0m [Epoch 128] test_loss(per sample): 0.4466, test_acc: 0.8579
+[32m[0615 14:55:44 @main.py:163][0m 
+Epoch: 129
+[32m[0615 14:56:00 @main.py:204][0m [Epoch 129] train_loss(per sample): 0.2479, train_acc: 0.9140, lr: [1e-05]
+[32m[0615 14:56:01 @main.py:235][0m [Epoch 129] test_loss(per sample): 0.4471, test_acc: 0.8566
+[32m[0615 14:56:01 @main.py:163][0m 
+Epoch: 130
+[32m[0615 14:56:17 @main.py:204][0m [Epoch 130] train_loss(per sample): 0.2514, train_acc: 0.9128, lr: [1e-05]
+[32m[0615 14:56:19 @main.py:235][0m [Epoch 130] test_loss(per sample): 0.4465, test_acc: 0.8570
+[32m[0615 14:56:19 @main.py:163][0m 
+Epoch: 131
+[32m[0615 14:56:34 @main.py:204][0m [Epoch 131] train_loss(per sample): 0.2469, train_acc: 0.9152, lr: [1e-05]
+[32m[0615 14:56:36 @main.py:235][0m [Epoch 131] test_loss(per sample): 0.4457, test_acc: 0.8569
+[32m[0615 14:56:36 @main.py:163][0m 
+Epoch: 132
+[32m[0615 14:56:51 @main.py:204][0m [Epoch 132] train_loss(per sample): 0.2482, train_acc: 0.9158, lr: [1e-05]
+[32m[0615 14:56:53 @main.py:235][0m [Epoch 132] test_loss(per sample): 0.4451, test_acc: 0.8566
+[32m[0615 14:56:53 @main.py:163][0m 
+Epoch: 133
+[32m[0615 14:57:08 @main.py:204][0m [Epoch 133] train_loss(per sample): 0.2501, train_acc: 0.9150, lr: [1e-05]
+[32m[0615 14:57:10 @main.py:235][0m [Epoch 133] test_loss(per sample): 0.4489, test_acc: 0.8550
+[32m[0615 14:57:10 @main.py:163][0m 
+Epoch: 134
+[32m[0615 14:57:25 @main.py:204][0m [Epoch 134] train_loss(per sample): 0.2505, train_acc: 0.9136, lr: [1e-05]
+[32m[0615 14:57:27 @main.py:235][0m [Epoch 134] test_loss(per sample): 0.4466, test_acc: 0.8577
+[32m[0615 14:57:27 @main.py:163][0m 
+Epoch: 135
+[32m[0615 14:57:43 @main.py:204][0m [Epoch 135] train_loss(per sample): 0.2507, train_acc: 0.9140, lr: [1e-05]
+[32m[0615 14:57:45 @main.py:235][0m [Epoch 135] test_loss(per sample): 0.4463, test_acc: 0.8568
+[32m[0615 14:57:45 @main.py:163][0m 
+Epoch: 136
+[32m[0615 14:58:00 @main.py:204][0m [Epoch 136] train_loss(per sample): 0.2473, train_acc: 0.9147, lr: [1e-05]
+[32m[0615 14:58:02 @main.py:235][0m [Epoch 136] test_loss(per sample): 0.4439, test_acc: 0.8562
+[32m[0615 14:58:02 @main.py:163][0m 
+Epoch: 137
+[32m[0615 14:58:17 @main.py:204][0m [Epoch 137] train_loss(per sample): 0.2460, train_acc: 0.9149, lr: [1e-05]
+[32m[0615 14:58:19 @main.py:235][0m [Epoch 137] test_loss(per sample): 0.4451, test_acc: 0.8589
+[32m[0615 14:58:19 @main.py:241][0m Saving..
+[32m[0615 14:58:20 @main.py:163][0m 
+Epoch: 138
+[32m[0615 14:58:35 @main.py:204][0m [Epoch 138] train_loss(per sample): 0.2506, train_acc: 0.9129, lr: [1e-05]
+[32m[0615 14:58:37 @main.py:235][0m [Epoch 138] test_loss(per sample): 0.4454, test_acc: 0.8580
+[32m[0615 14:58:37 @main.py:163][0m 
+Epoch: 139
+[32m[0615 14:58:53 @main.py:204][0m [Epoch 139] train_loss(per sample): 0.2471, train_acc: 0.9151, lr: [1e-05]
+[32m[0615 14:58:55 @main.py:235][0m [Epoch 139] test_loss(per sample): 0.4454, test_acc: 0.8571
+[32m[0615 14:58:55 @main.py:163][0m 
+Epoch: 140
+[32m[0615 14:59:10 @main.py:204][0m [Epoch 140] train_loss(per sample): 0.2497, train_acc: 0.9139, lr: [1e-05]
+[32m[0615 14:59:12 @main.py:235][0m [Epoch 140] test_loss(per sample): 0.4464, test_acc: 0.8563
+[32m[0615 14:59:12 @main.py:163][0m 
+Epoch: 141
+[32m[0615 14:59:27 @main.py:204][0m [Epoch 141] train_loss(per sample): 0.2464, train_acc: 0.9154, lr: [1e-05]
+[32m[0615 14:59:29 @main.py:235][0m [Epoch 141] test_loss(per sample): 0.4447, test_acc: 0.8567
+[32m[0615 14:59:29 @main.py:163][0m 
+Epoch: 142
+[32m[0615 14:59:44 @main.py:204][0m [Epoch 142] train_loss(per sample): 0.2451, train_acc: 0.9164, lr: [1e-05]
+[32m[0615 14:59:46 @main.py:235][0m [Epoch 142] test_loss(per sample): 0.4461, test_acc: 0.8573
+[32m[0615 14:59:46 @main.py:163][0m 
+Epoch: 143
+[32m[0615 15:00:02 @main.py:204][0m [Epoch 143] train_loss(per sample): 0.2474, train_acc: 0.9151, lr: [1e-05]
+[32m[0615 15:00:04 @main.py:235][0m [Epoch 143] test_loss(per sample): 0.4451, test_acc: 0.8582
+[32m[0615 15:00:04 @main.py:163][0m 
+Epoch: 144
+[32m[0615 15:00:19 @main.py:204][0m [Epoch 144] train_loss(per sample): 0.2498, train_acc: 0.9151, lr: [1e-05]
+[32m[0615 15:00:21 @main.py:235][0m [Epoch 144] test_loss(per sample): 0.4467, test_acc: 0.8588
+[32m[0615 15:00:21 @main.py:163][0m 
+Epoch: 145
+[32m[0615 15:00:36 @main.py:204][0m [Epoch 145] train_loss(per sample): 0.2477, train_acc: 0.9144, lr: [1e-05]
+[32m[0615 15:00:38 @main.py:235][0m [Epoch 145] test_loss(per sample): 0.4463, test_acc: 0.8594
+[32m[0615 15:00:38 @main.py:241][0m Saving..
+[32m[0615 15:00:38 @main.py:163][0m 
+Epoch: 146
+[32m[0615 15:00:53 @main.py:204][0m [Epoch 146] train_loss(per sample): 0.2479, train_acc: 0.9143, lr: [1e-05]
+[32m[0615 15:00:55 @main.py:235][0m [Epoch 146] test_loss(per sample): 0.4480, test_acc: 0.8568
+[32m[0615 15:00:56 @main.py:163][0m 
+Epoch: 147
+[32m[0615 15:01:11 @main.py:204][0m [Epoch 147] train_loss(per sample): 0.2470, train_acc: 0.9143, lr: [1e-05]
+[32m[0615 15:01:13 @main.py:235][0m [Epoch 147] test_loss(per sample): 0.4463, test_acc: 0.8581
+[32m[0615 15:01:13 @main.py:163][0m 
+Epoch: 148
+[32m[0615 15:01:28 @main.py:204][0m [Epoch 148] train_loss(per sample): 0.2480, train_acc: 0.9147, lr: [1e-05]
+[32m[0615 15:01:30 @main.py:235][0m [Epoch 148] test_loss(per sample): 0.4466, test_acc: 0.8583
+[32m[0615 15:01:30 @main.py:163][0m 
+Epoch: 149
+[32m[0615 15:01:46 @main.py:204][0m [Epoch 149] train_loss(per sample): 0.2486, train_acc: 0.9155, lr: [1e-05]
+[32m[0615 15:01:48 @main.py:235][0m [Epoch 149] test_loss(per sample): 0.4493, test_acc: 0.8558
+[32m[0615 15:01:48 @main.py:163][0m 
+Epoch: 150
+[32m[0615 15:02:03 @main.py:204][0m [Epoch 150] train_loss(per sample): 0.2446, train_acc: 0.9168, lr: [1e-05]
+[32m[0615 15:02:05 @main.py:235][0m [Epoch 150] test_loss(per sample): 0.4478, test_acc: 0.8574
+[32m[0615 15:02:05 @main.py:163][0m 
+Epoch: 151
+[32m[0615 15:02:20 @main.py:204][0m [Epoch 151] train_loss(per sample): 0.2478, train_acc: 0.9153, lr: [1e-05]
+[32m[0615 15:02:22 @main.py:235][0m [Epoch 151] test_loss(per sample): 0.4503, test_acc: 0.8564
+[32m[0615 15:02:22 @main.py:163][0m 
+Epoch: 152
+[32m[0615 15:02:37 @main.py:204][0m [Epoch 152] train_loss(per sample): 0.2470, train_acc: 0.9151, lr: [1e-05]
+[32m[0615 15:02:39 @main.py:235][0m [Epoch 152] test_loss(per sample): 0.4477, test_acc: 0.8567
+[32m[0615 15:02:39 @main.py:163][0m 
+Epoch: 153
+[32m[0615 15:02:55 @main.py:204][0m [Epoch 153] train_loss(per sample): 0.2452, train_acc: 0.9151, lr: [1e-05]
+[32m[0615 15:02:57 @main.py:235][0m [Epoch 153] test_loss(per sample): 0.4479, test_acc: 0.8575
+[32m[0615 15:02:57 @main.py:163][0m 
+Epoch: 154
+[32m[0615 15:03:12 @main.py:204][0m [Epoch 154] train_loss(per sample): 0.2420, train_acc: 0.9167, lr: [1e-05]
+[32m[0615 15:03:14 @main.py:235][0m [Epoch 154] test_loss(per sample): 0.4488, test_acc: 0.8570
+[32m[0615 15:03:14 @main.py:163][0m 
+Epoch: 155
+[32m[0615 15:03:29 @main.py:204][0m [Epoch 155] train_loss(per sample): 0.2447, train_acc: 0.9147, lr: [1e-05]
+[32m[0615 15:03:31 @main.py:235][0m [Epoch 155] test_loss(per sample): 0.4493, test_acc: 0.8579
+[32m[0615 15:03:31 @main.py:163][0m 
+Epoch: 156
+[32m[0615 15:03:46 @main.py:204][0m [Epoch 156] train_loss(per sample): 0.2455, train_acc: 0.9144, lr: [1e-05]
+[32m[0615 15:03:48 @main.py:235][0m [Epoch 156] test_loss(per sample): 0.4480, test_acc: 0.8583
+[32m[0615 15:03:48 @main.py:163][0m 
+Epoch: 157
+[32m[0615 15:04:03 @main.py:204][0m [Epoch 157] train_loss(per sample): 0.2458, train_acc: 0.9156, lr: [1e-05]
+[32m[0615 15:04:05 @main.py:235][0m [Epoch 157] test_loss(per sample): 0.4489, test_acc: 0.8576
+[32m[0615 15:04:05 @main.py:163][0m 
+Epoch: 158
+[32m[0615 15:04:21 @main.py:204][0m [Epoch 158] train_loss(per sample): 0.2441, train_acc: 0.9159, lr: [1e-05]
+[32m[0615 15:04:23 @main.py:235][0m [Epoch 158] test_loss(per sample): 0.4502, test_acc: 0.8563
+[32m[0615 15:04:23 @main.py:163][0m 
+Epoch: 159
+[32m[0615 15:04:38 @main.py:204][0m [Epoch 159] train_loss(per sample): 0.2445, train_acc: 0.9163, lr: [1e-05]
+[32m[0615 15:04:40 @main.py:235][0m [Epoch 159] test_loss(per sample): 0.4491, test_acc: 0.8577
+[32m[0615 15:04:40 @main.py:163][0m 
+Epoch: 160
+[32m[0615 15:04:55 @main.py:204][0m [Epoch 160] train_loss(per sample): 0.2409, train_acc: 0.9172, lr: [5.000000000000001e-07]
+[32m[0615 15:04:57 @main.py:235][0m [Epoch 160] test_loss(per sample): 0.4494, test_acc: 0.8573
+[32m[0615 15:04:57 @main.py:163][0m 
+Epoch: 161
+[32m[0615 15:05:12 @main.py:204][0m [Epoch 161] train_loss(per sample): 0.2450, train_acc: 0.9146, lr: [5.000000000000001e-07]
+[32m[0615 15:05:14 @main.py:235][0m [Epoch 161] test_loss(per sample): 0.4485, test_acc: 0.8569
+[32m[0615 15:05:14 @main.py:163][0m 
+Epoch: 162
+[32m[0615 15:05:29 @main.py:204][0m [Epoch 162] train_loss(per sample): 0.2430, train_acc: 0.9165, lr: [5.000000000000001e-07]
+[32m[0615 15:05:32 @main.py:235][0m [Epoch 162] test_loss(per sample): 0.4471, test_acc: 0.8583
+[32m[0615 15:05:32 @main.py:163][0m 
+Epoch: 163
+[32m[0615 15:05:47 @main.py:204][0m [Epoch 163] train_loss(per sample): 0.2434, train_acc: 0.9165, lr: [5.000000000000001e-07]
+[32m[0615 15:05:49 @main.py:235][0m [Epoch 163] test_loss(per sample): 0.4477, test_acc: 0.8569
+[32m[0615 15:05:49 @main.py:163][0m 
+Epoch: 164
+[32m[0615 15:06:05 @main.py:204][0m [Epoch 164] train_loss(per sample): 0.2454, train_acc: 0.9154, lr: [5.000000000000001e-07]
+[32m[0615 15:06:07 @main.py:235][0m [Epoch 164] test_loss(per sample): 0.4484, test_acc: 0.8581
+[32m[0615 15:06:07 @main.py:163][0m 
+Epoch: 165
+[32m[0615 15:06:22 @main.py:204][0m [Epoch 165] train_loss(per sample): 0.2448, train_acc: 0.9163, lr: [5.000000000000001e-07]
+[32m[0615 15:06:24 @main.py:235][0m [Epoch 165] test_loss(per sample): 0.4488, test_acc: 0.8580
+[32m[0615 15:06:24 @main.py:163][0m 
+Epoch: 166
+[32m[0615 15:06:39 @main.py:204][0m [Epoch 166] train_loss(per sample): 0.2435, train_acc: 0.9140, lr: [5.000000000000001e-07]
+[32m[0615 15:06:41 @main.py:235][0m [Epoch 166] test_loss(per sample): 0.4485, test_acc: 0.8580
+[32m[0615 15:06:41 @main.py:163][0m 
+Epoch: 167
+[32m[0615 15:06:56 @main.py:204][0m [Epoch 167] train_loss(per sample): 0.2434, train_acc: 0.9162, lr: [5.000000000000001e-07]
+[32m[0615 15:06:58 @main.py:235][0m [Epoch 167] test_loss(per sample): 0.4480, test_acc: 0.8581
+[32m[0615 15:06:58 @main.py:163][0m 
+Epoch: 168
+[32m[0615 15:07:14 @main.py:204][0m [Epoch 168] train_loss(per sample): 0.2414, train_acc: 0.9174, lr: [5.000000000000001e-07]
+[32m[0615 15:07:16 @main.py:235][0m [Epoch 168] test_loss(per sample): 0.4482, test_acc: 0.8576
+[32m[0615 15:07:16 @main.py:163][0m 
+Epoch: 169
+[32m[0615 15:07:31 @main.py:204][0m [Epoch 169] train_loss(per sample): 0.2442, train_acc: 0.9150, lr: [5.000000000000001e-07]
+[32m[0615 15:07:33 @main.py:235][0m [Epoch 169] test_loss(per sample): 0.4482, test_acc: 0.8571
+[32m[0615 15:07:33 @main.py:163][0m 
+Epoch: 170
+[32m[0615 15:07:49 @main.py:204][0m [Epoch 170] train_loss(per sample): 0.2414, train_acc: 0.9163, lr: [5.000000000000001e-07]
+[32m[0615 15:07:51 @main.py:235][0m [Epoch 170] test_loss(per sample): 0.4478, test_acc: 0.8583
+[32m[0615 15:07:51 @main.py:163][0m 
+Epoch: 171
+[32m[0615 15:08:06 @main.py:204][0m [Epoch 171] train_loss(per sample): 0.2418, train_acc: 0.9163, lr: [5.000000000000001e-07]
+[32m[0615 15:08:08 @main.py:235][0m [Epoch 171] test_loss(per sample): 0.4487, test_acc: 0.8576
+[32m[0615 15:08:08 @main.py:163][0m 
+Epoch: 172
+[32m[0615 15:08:24 @main.py:204][0m [Epoch 172] train_loss(per sample): 0.2445, train_acc: 0.9164, lr: [5.000000000000001e-07]
+[32m[0615 15:08:26 @main.py:235][0m [Epoch 172] test_loss(per sample): 0.4487, test_acc: 0.8582
+[32m[0615 15:08:26 @main.py:163][0m 
+Epoch: 173
+[32m[0615 15:08:41 @main.py:204][0m [Epoch 173] train_loss(per sample): 0.2428, train_acc: 0.9165, lr: [5.000000000000001e-07]
+[32m[0615 15:08:43 @main.py:235][0m [Epoch 173] test_loss(per sample): 0.4458, test_acc: 0.8584
+[32m[0615 15:08:43 @main.py:163][0m 
+Epoch: 174
+[32m[0615 15:08:58 @main.py:204][0m [Epoch 174] train_loss(per sample): 0.2404, train_acc: 0.9177, lr: [5.000000000000001e-07]
+[32m[0615 15:09:00 @main.py:235][0m [Epoch 174] test_loss(per sample): 0.4489, test_acc: 0.8581
+[32m[0615 15:09:00 @main.py:163][0m 
+Epoch: 175
+[32m[0615 15:09:16 @main.py:204][0m [Epoch 175] train_loss(per sample): 0.2391, train_acc: 0.9185, lr: [5.000000000000001e-07]
+[32m[0615 15:09:18 @main.py:235][0m [Epoch 175] test_loss(per sample): 0.4484, test_acc: 0.8577
+[32m[0615 15:09:18 @main.py:163][0m 
+Epoch: 176
+[32m[0615 15:09:33 @main.py:204][0m [Epoch 176] train_loss(per sample): 0.2415, train_acc: 0.9165, lr: [5.000000000000001e-07]
+[32m[0615 15:09:35 @main.py:235][0m [Epoch 176] test_loss(per sample): 0.4507, test_acc: 0.8578
+[32m[0615 15:09:35 @main.py:163][0m 
+Epoch: 177
+[32m[0615 15:09:50 @main.py:204][0m [Epoch 177] train_loss(per sample): 0.2457, train_acc: 0.9151, lr: [5.000000000000001e-07]
+[32m[0615 15:09:52 @main.py:235][0m [Epoch 177] test_loss(per sample): 0.4496, test_acc: 0.8571
+[32m[0615 15:09:52 @main.py:163][0m 
+Epoch: 178
+[32m[0615 15:10:07 @main.py:204][0m [Epoch 178] train_loss(per sample): 0.2422, train_acc: 0.9158, lr: [5.000000000000001e-07]
+[32m[0615 15:10:09 @main.py:235][0m [Epoch 178] test_loss(per sample): 0.4465, test_acc: 0.8588
+[32m[0615 15:10:09 @main.py:163][0m 
+Epoch: 179
+[32m[0615 15:10:24 @main.py:204][0m [Epoch 179] train_loss(per sample): 0.2427, train_acc: 0.9169, lr: [5.000000000000001e-07]
+[32m[0615 15:10:26 @main.py:235][0m [Epoch 179] test_loss(per sample): 0.4506, test_acc: 0.8578
+[32m[0615 15:10:26 @main.py:163][0m 
+Epoch: 180
+[32m[0615 15:10:42 @main.py:204][0m [Epoch 180] train_loss(per sample): 0.2448, train_acc: 0.9147, lr: [5.000000000000001e-07]
+[32m[0615 15:10:43 @main.py:235][0m [Epoch 180] test_loss(per sample): 0.4505, test_acc: 0.8576
+[32m[0615 15:10:43 @main.py:163][0m 
+Epoch: 181
+[32m[0615 15:10:58 @main.py:204][0m [Epoch 181] train_loss(per sample): 0.2424, train_acc: 0.9161, lr: [5.000000000000001e-07]
+[32m[0615 15:11:00 @main.py:235][0m [Epoch 181] test_loss(per sample): 0.4510, test_acc: 0.8573
+[32m[0615 15:11:00 @main.py:163][0m 
+Epoch: 182
+[32m[0615 15:11:15 @main.py:204][0m [Epoch 182] train_loss(per sample): 0.2419, train_acc: 0.9178, lr: [5.000000000000001e-07]
+[32m[0615 15:11:17 @main.py:235][0m [Epoch 182] test_loss(per sample): 0.4492, test_acc: 0.8564
+[32m[0615 15:11:17 @main.py:163][0m 
+Epoch: 183
+[32m[0615 15:11:32 @main.py:204][0m [Epoch 183] train_loss(per sample): 0.2423, train_acc: 0.9164, lr: [5.000000000000001e-07]
+[32m[0615 15:11:34 @main.py:235][0m [Epoch 183] test_loss(per sample): 0.4481, test_acc: 0.8575
+[32m[0615 15:11:34 @main.py:163][0m 
+Epoch: 184
+[32m[0615 15:11:49 @main.py:204][0m [Epoch 184] train_loss(per sample): 0.2441, train_acc: 0.9146, lr: [5.000000000000001e-07]
+[32m[0615 15:11:51 @main.py:235][0m [Epoch 184] test_loss(per sample): 0.4480, test_acc: 0.8576
+[32m[0615 15:11:51 @main.py:163][0m 
+Epoch: 185
+[32m[0615 15:12:06 @main.py:204][0m [Epoch 185] train_loss(per sample): 0.2416, train_acc: 0.9168, lr: [5.000000000000001e-07]
+[32m[0615 15:12:08 @main.py:235][0m [Epoch 185] test_loss(per sample): 0.4468, test_acc: 0.8580
+[32m[0615 15:12:08 @main.py:163][0m 
+Epoch: 186
+[32m[0615 15:12:23 @main.py:204][0m [Epoch 186] train_loss(per sample): 0.2437, train_acc: 0.9160, lr: [5.000000000000001e-07]
+[32m[0615 15:12:25 @main.py:235][0m [Epoch 186] test_loss(per sample): 0.4501, test_acc: 0.8580
+[32m[0615 15:12:25 @main.py:163][0m 
+Epoch: 187
+[32m[0615 15:12:40 @main.py:204][0m [Epoch 187] train_loss(per sample): 0.2412, train_acc: 0.9163, lr: [5.000000000000001e-07]
+[32m[0615 15:12:42 @main.py:235][0m [Epoch 187] test_loss(per sample): 0.4492, test_acc: 0.8569
+[32m[0615 15:12:42 @main.py:163][0m 
+Epoch: 188
+[32m[0615 15:12:57 @main.py:204][0m [Epoch 188] train_loss(per sample): 0.2460, train_acc: 0.9157, lr: [5.000000000000001e-07]
+[32m[0615 15:12:59 @main.py:235][0m [Epoch 188] test_loss(per sample): 0.4464, test_acc: 0.8577
+[32m[0615 15:12:59 @main.py:163][0m 
+Epoch: 189
+[32m[0615 15:13:15 @main.py:204][0m [Epoch 189] train_loss(per sample): 0.2432, train_acc: 0.9166, lr: [5.000000000000001e-07]
+[32m[0615 15:13:17 @main.py:235][0m [Epoch 189] test_loss(per sample): 0.4487, test_acc: 0.8578
+[32m[0615 15:13:17 @main.py:163][0m 
+Epoch: 190
+[32m[0615 15:13:31 @main.py:204][0m [Epoch 190] train_loss(per sample): 0.2402, train_acc: 0.9164, lr: [5.000000000000001e-07]
+[32m[0615 15:13:33 @main.py:235][0m [Epoch 190] test_loss(per sample): 0.4522, test_acc: 0.8580
+[32m[0615 15:13:33 @main.py:163][0m 
+Epoch: 191
+[32m[0615 15:13:49 @main.py:204][0m [Epoch 191] train_loss(per sample): 0.2429, train_acc: 0.9163, lr: [5.000000000000001e-07]
+[32m[0615 15:13:51 @main.py:235][0m [Epoch 191] test_loss(per sample): 0.4485, test_acc: 0.8586
+[32m[0615 15:13:51 @main.py:163][0m 
+Epoch: 192
+[32m[0615 15:14:06 @main.py:204][0m [Epoch 192] train_loss(per sample): 0.2437, train_acc: 0.9160, lr: [5.000000000000001e-07]
+[32m[0615 15:14:08 @main.py:235][0m [Epoch 192] test_loss(per sample): 0.4491, test_acc: 0.8581
+[32m[0615 15:14:08 @main.py:163][0m 
+Epoch: 193
+[32m[0615 15:14:23 @main.py:204][0m [Epoch 193] train_loss(per sample): 0.2391, train_acc: 0.9175, lr: [5.000000000000001e-07]
+[32m[0615 15:14:25 @main.py:235][0m [Epoch 193] test_loss(per sample): 0.4487, test_acc: 0.8564
+[32m[0615 15:14:25 @main.py:163][0m 
+Epoch: 194
+[32m[0615 15:14:40 @main.py:204][0m [Epoch 194] train_loss(per sample): 0.2417, train_acc: 0.9177, lr: [5.000000000000001e-07]
+[32m[0615 15:14:42 @main.py:235][0m [Epoch 194] test_loss(per sample): 0.4473, test_acc: 0.8589
+[32m[0615 15:14:42 @main.py:163][0m 
+Epoch: 195
+[32m[0615 15:14:57 @main.py:204][0m [Epoch 195] train_loss(per sample): 0.2400, train_acc: 0.9177, lr: [5.000000000000001e-07]
+[32m[0615 15:14:59 @main.py:235][0m [Epoch 195] test_loss(per sample): 0.4501, test_acc: 0.8589
+[32m[0615 15:14:59 @main.py:163][0m 
+Epoch: 196
+[32m[0615 15:15:14 @main.py:204][0m [Epoch 196] train_loss(per sample): 0.2413, train_acc: 0.9166, lr: [5.000000000000001e-07]
+[32m[0615 15:15:16 @main.py:235][0m [Epoch 196] test_loss(per sample): 0.4488, test_acc: 0.8577
+[32m[0615 15:15:16 @main.py:163][0m 
+Epoch: 197
+[32m[0615 15:15:31 @main.py:204][0m [Epoch 197] train_loss(per sample): 0.2432, train_acc: 0.9174, lr: [5.000000000000001e-07]
+[32m[0615 15:15:33 @main.py:235][0m [Epoch 197] test_loss(per sample): 0.4491, test_acc: 0.8576
+[32m[0615 15:15:33 @main.py:163][0m 
+Epoch: 198
+[32m[0615 15:15:48 @main.py:204][0m [Epoch 198] train_loss(per sample): 0.2421, train_acc: 0.9177, lr: [5.000000000000001e-07]
+[32m[0615 15:15:50 @main.py:235][0m [Epoch 198] test_loss(per sample): 0.4482, test_acc: 0.8586
+[32m[0615 15:15:50 @main.py:163][0m 
+Epoch: 199
+[32m[0615 15:16:05 @main.py:204][0m [Epoch 199] train_loss(per sample): 0.2416, train_acc: 0.9159, lr: [5.000000000000001e-07]
+[32m[0615 15:16:07 @main.py:235][0m [Epoch 199] test_loss(per sample): 0.4491, test_acc: 0.8575
