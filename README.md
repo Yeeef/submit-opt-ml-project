@@ -44,3 +44,10 @@ sh run.sh
 
 see the `experiments_graph.ipynb`, the used information is dumped in `representatives` folder, which could be fully reproduced with `run.sh`.
  
+## credit
+
+We thank following authors and their codes:
+
+- https://github.com/kuangliu/pytorch-cifar
+- https://github.com/tensorpack/tensorpack
+- https://github.com/ildoonet/pytorch-gradual-warmup-lr
