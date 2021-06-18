@@ -2,6 +2,18 @@
 
 > On the large batch training of CIFAR-10
 
+## Packages
+
+To install needed packages, please run following codes:
+
+```shell
+pip install torch
+pip install torchvision
+pip install tensorboard
+pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
+pip install termcolor
+```
+
 ## usage
 
 ```
@@ -24,6 +36,12 @@ optional arguments:
   --psuedo  PSUEDO_BATCH  simulation of multi-worker training
 ```
 
+Example of usage:
+
+```shell
+python3 main.py --opt sgd --lr 0.025 --bs 32 -- epoch 200 -- lr_decay 0.1 warmup_epochs 10 pesuedo 128
+```
+
 - default values:
   - `lr`: 0.1
   - `bs`: 128
@@ -43,7 +61,7 @@ sh run.sh
 ## reproduce of graphs
 
 see the `experiments_graph.ipynb`, the used information is dumped in `representatives` folder, which could be fully reproduced with `run.sh`.
- 
+
 ## credit
 
 We thank following authors and their codes:
